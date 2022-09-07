@@ -3,3 +3,50 @@
 ========================================================= */
 
 /* Schrijf hier  jouw CSS! */
+
+* {
+    box-sizing: border-box;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.three {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 400px;
+    list-style: none;
+}
+
+.inlog-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.five {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.lorum-items {
+    flex-basis: 400px;
+    flex-grow: 1;
+}

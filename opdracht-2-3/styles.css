@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio:wght@300;400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.navigation-bar1 {
+    font-family: 'Anton', sans-serif;
+    background: hsl(245, 100%, 8%);
+    color: hsl(62, 52%, 90%);
+    padding: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name-company {
+    flex: 0 0 320px;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+ul {
+    flex-basis: 500px;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap:10px;
+}
+
+li {
+    flex: 0 0;
+    margin-left: 40px;
+    white-space: nowrap;
+}
+
+body {
+    background: HSL(62, 52%, 90%);
+    font-family: 'Antonio', sans-serif;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    flex: 0 0;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    flex: 0 0;
+    font-weight: 300;
+}
+
+.parent-three-articles {
+    flex: 1 1;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    margin-top: 0;
+    font-weight: 300;
+    color: hsl(227, 50%, 16%);
+
+
+}
+
+article {
+    background: hsl(359, 40%, 59%);
+    flex: 0 1 280px;
+    min-height: 350px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    border-radius: 5px;
+
+
+}
+
+
+.second-item {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
